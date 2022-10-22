@@ -2,12 +2,16 @@
     --primary-color: orangered;
     --secondary-color: black;
     --tertiary-color: white;
+    --complementary-color: white;
+    --complementary-color-2: black;
 }
 
 .dark-theme {
     --primary-color: orangered;
     --secondary-color: white;
     --tertiary-color: black;
+    --complementary-color: white;
+    --complementary-color-2: black;
 }
 
 span {
@@ -52,6 +56,7 @@ a {
     font-weight: 400;
     color: var(--secondary-color);
 }
+
 
 .icon {
     margin-right: 15px;
@@ -139,6 +144,8 @@ a {
     background-color: var(--primary-color);
 }
 
+
+
 .content {
     margin: 161px 50px;
     padding: 30px;
@@ -163,17 +170,19 @@ h3 {
 
 .Skills {
     height: 609px;
-    background-color: var(--tertiary-color);
+    background-color: var(--complementary-color);
     display: flex;
     align-items: center;
     justify-content: space-around;
 }
 
+
+
 .skillCard {
     height: 390px;
     width: 280px;
     border-radius: 5px;
-    box-shadow: 0.8px 0.8px 0.8px 0.8px var(--secondary-color);
+    box-shadow: 0.8px 0.8px 0.8px 0.8px var(--tertiary-color);
     transition: all 1s ease;
 }
 
@@ -184,7 +193,7 @@ h3 {
 .card-top {
     width: 100%;
     height: 36%;
-    background-color: var(--tertiary-color);
+    background-color: var(--complementary-color);
     overflow: hidden;
 }
 
@@ -205,6 +214,7 @@ h3 {
 .skill-description {
     width: 100%;
     height: 70%;
+    color: var(--complementary-color-2);
     display: flex;
     text-align: center;
 }
