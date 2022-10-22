@@ -176,6 +176,9 @@ h3 {
     justify-content: space-around;
 }
 
+.Skills span{
+    color: var(--complementary-color-2);
+}
 
 
 .skillCard {
@@ -272,6 +275,7 @@ h3 {
     display: flex;
     align-items: center;
     justify-content: center;
+    padding: 2px;
 }
 
 .message-bottom {
@@ -287,7 +291,7 @@ button {
     width: 60px;
     margin-bottom: 5px;
     background-color: var(--primary-color);
-    color: var(--tertiary-color);
+    color: var(--complementary-color);
     border: 1px solid var(--tertiary-color);
     border-radius: 5px;
     overflow: hidden;
